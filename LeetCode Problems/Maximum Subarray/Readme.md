@@ -7,7 +7,7 @@
 </h1>
 
 ## Maximum Subarray
-### **Medium**
+<h4 style = "text-color: blue">Medium</h4>
 #### Time Complexity: O(N) and Space Complexity: O(N)
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
