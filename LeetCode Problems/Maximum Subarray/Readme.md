@@ -8,7 +8,7 @@
 
 > ## Maximum Subarray
 > ### **Medium**
-> #### Time Complexity: O(N) and Space Complexity: O(N)
+#### Time Complexity: O(N) and Space Complexity: O(N)
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
