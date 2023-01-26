@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-  <a href="https://leetcode.com/"><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fleetcode.com%2Fstatic%2Fimages%2FLeetCode_Sharing.png&imgrefurl=https%3A%2F%2Fleetcode.com%2Fexplore%2Flearn%2F&tbnid=cQ8rt18AHdsZYM&vet=12ahUKEwi7-6TYueT8AhW80HMBHV2VCKEQMygGegQIARBm..i&docid=G5g_L3laZNw4MM&w=500&h=260&q=leetcode%20image%20href%20tag&ved=2ahUKEwi7-6TYueT8AhW80HMBHV2VCKEQMygGegQIARBm" alt="LeeCode Solutions" width="200"></a>
+  <a href="https://leetcode.com/"><img src="https://camo.githubusercontent.com/1eca2365da012b44816f2402011dc3ba78cefbe78228b22d60161a898d015b67/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313230302f312a4c75723972724a49547346526e7549595552596b53672e6a706567" alt="LeeCode Solutions" width="200"></a>
   <br>
   LeetCode Solutions
   <br>
 </h1>
 
 > ## Maximum Subarray
-> ### **Medium**
+### **Medium**
 #### Time Complexity: O(N) and Space Complexity: O(N)
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
