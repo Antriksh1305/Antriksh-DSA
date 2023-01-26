@@ -6,7 +6,7 @@
 
 ## Maximum Subarray
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(1)</b></h5>
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
