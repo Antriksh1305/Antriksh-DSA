@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-> ## Maximum Subarray
+## Maximum Subarray
 ### **Medium**
 #### Time Complexity: O(N) and Space Complexity: O(N)
 
