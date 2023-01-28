@@ -2,8 +2,8 @@
 
 /*
 GFG Question:  The Celebrity Problem (important)
-Time Complexity: O(N^2)
-Space Complexity: O(1)
+Time Complexity: O(N)
+Space Complexity: O(N)
 */
 using namespace std;
 
