@@ -18,15 +18,20 @@ public:
             
             if(sum == 1 or sum == 3){
                 if(sum == 1) cnt = 0;
-                ans = '1' + ans;
+                ans += '1';
             }
             else{
-                ans = '0' + ans;
+                ans += '0';
                 if(sum == 2) cnt = 1;
             }
         }
-        if(cnt) ans = '1' + ans;
+        if(cnt) ans += '1';
         
+        reverse(ans.begin(),ans.end());
         return ans;
     }
 };
+/*
+a = a + "xy" creates a copy of a, appends "xy" and then assigns it back to a.
+a += "xy" just appends "xy" to a.
+*/
