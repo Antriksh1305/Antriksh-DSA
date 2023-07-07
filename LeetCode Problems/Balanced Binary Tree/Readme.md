@@ -6,7 +6,7 @@
 
 ## Balanced Binary Tree
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(h)</b></h5>
 
 Given a binary tree, determine if it is height-balanced.
 
