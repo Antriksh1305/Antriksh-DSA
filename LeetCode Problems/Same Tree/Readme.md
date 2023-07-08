@@ -6,7 +6,7 @@
 
 ## Same Tree
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(height of the tree)</b></h5>
 
 Given the roots of two binary trees p and q, write a function to check if they are the same or not.
 
