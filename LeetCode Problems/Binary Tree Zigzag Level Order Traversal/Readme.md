@@ -6,7 +6,7 @@
 
 ## Binary Tree Zigzag Level Order Traversal
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(height of tree) to (N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(height of tree) to O(N)</b></h5>
 
 Given the ```root``` of a binary tree, return <i>the zigzag level order traversal of its nodes' values</i>. (i.e., from left to right, then right to left for the next level and alternate between).
 
