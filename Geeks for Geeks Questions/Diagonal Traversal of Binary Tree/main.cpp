@@ -1,29 +1,34 @@
-void solve(Node* root, vector<vector<int>>& res, int level){
+/* A binary tree node
+struct Node
+{
+    int data;
+    Node* left, * right;
+}; */
+
+void solve(vector<vector<int>>& res, int left, int right, Node* root){
     if(root == NULL) return;
     
-    if(level < res.size()){
-        res[level].push_back(root->data);
+    if(left + 1 > res.size()){
+        res.push_back(vector<int>{root->data});
     }
     else {
-        res.push_back(vector<int> (1,root->data));
+        res[left].push_back(root->data);
     }
     
-    solve(root->left,res,level+1);
-    solve(root->right,res,level);
-    
-    return;
+    solve(res,left+1,right,root->left);
+    solve(res,left,right+1,root->right);
 }
 
 vector<int> diagonal(Node *root)
 {
-    vector<int> ans;
     vector<vector<int>> res;
+    solve(res,0,0,root);
     
-    solve(root,res,0);
+    vector<int> ans;
     
-    for(auto i : res){
-        for(auto j : i){
-            ans.push_back(j);
+    for(int i = 0; i < res.size(); i++){
+        for(int j = 0; j < res[i].size(); j++){
+            ans.push_back(res[i][j]);
         }
     }
     
