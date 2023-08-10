@@ -6,7 +6,7 @@
 
 ## Path Sum III
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(Height of Tree)</b></h5>
 
 Given the `root` of a binary tree and an integer `targetSum`, return *the number of paths where the sum of the values along the path equals* `targetSum`.
 
