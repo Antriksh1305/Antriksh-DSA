@@ -2,7 +2,7 @@
 </h1>
 
 
-## Maximum sum of Non-adjacent nodes
+## Maximum sum of Non-adjacent nodes (Important)
 
 <h3><img width="100" alt="image" src="https://user-images.githubusercontent.com/100402656/215281956-745bfdd6-2534-44d3-8d9d-02f12cd7dbcc.png"></h3>
 
