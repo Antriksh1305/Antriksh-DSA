@@ -6,7 +6,7 @@
 
 ## Binary Tree Inorder Traversal
 
-<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(N)</b></h5>
+<h5>Time Complexity: <b>O(N)</b> <br>Space Complexity: <b>O(Height of Tree)</b></h5>
 
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
