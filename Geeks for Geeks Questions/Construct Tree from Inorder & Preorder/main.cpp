@@ -4,7 +4,6 @@ class Solution{
         if(n == 0) return NULL;
         
         Node* root = new Node(pre[0]);
-        if(n == 1) return root;
         
         vector<int> inLeft, inRight, preLeft, preRight;
         
