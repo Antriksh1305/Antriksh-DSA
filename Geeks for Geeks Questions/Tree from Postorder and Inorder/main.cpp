@@ -2,7 +2,6 @@ Node* solve(vector<int> in, vector<int> post, int n){
     if(n == 0) return NULL;
     
     Node* root = new Node(post[n-1]);
-    if(n == 1) return root;
     
     vector<int> inLeft, inRight, postLeft, postRight;
     
